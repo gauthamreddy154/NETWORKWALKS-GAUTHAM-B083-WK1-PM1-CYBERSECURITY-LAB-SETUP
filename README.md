@@ -43,6 +43,73 @@ The main objectives of this project are as follows:
 
   ---
 
+# How the lab was created
+
+## step 1: Installed 7-ZIP
+   FOR EXTRACTION OF Kali Linux.
+
+---
+
+## Step 2: Installed virtualBox
+    installed as hypervisor.
+
+---
+
+## step 3: NATNetwork was created
+
+      Configuration:
+Network Name: NatNetwork
+IPv4 Prefix:  10.0.0.0/24
+DHCP:         Enabled
+IPv6:         Disabled
+
+
+![]<img width="1920" height="974" alt="Oracle VirtualBox Manager 11-09-2026 19_19_59" src="https://github.com/user-attachments/assets/460544a7-9329-4361-8d5d-a4f26b0e7283" />
+
+
+---
+
+## step4: Kali Linux was imported in virtual BOX and configured
+The VM network adapter was configured as follows:
+
+```text
+Adapter 1
+Attached to: NAT Network
+Network:     NatNetwork
+Adapter Type: Intel PRO/1000 MT Desktop
+
+---
+
+The VM was allocated
+RAM:2048MB
+
+
+
+---
+
+## step5: Kali Linux network was configured as follows
+
+Ip address: 10.0.0.2
+ subnet Mask: 225.225.225.0
+Gateway: 10.0.0.1
+DNS:8.8.8.8
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
