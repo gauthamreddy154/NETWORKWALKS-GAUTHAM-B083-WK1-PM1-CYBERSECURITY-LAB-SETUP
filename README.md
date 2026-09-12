@@ -148,6 +148,48 @@ After enabling virtualization, the VM started successfully.
 
 ---
 
+# What i learned
+
+### 1 Virtual machine networking
+I learned how virtual box adapters connects our virtual machine to our physical local network and how additional adapters like bridged network play important role in this
+### Benifits: can perform network scans and interact directly with other physical devices on your local Wi-Fi or Ethernet network using the bridged interface, while keeping secure internal traffic contained within the NAT network.
+### Simultaneous Access: You keep internet access and inter-VM connectivity without sacrificing your ability to target external local devices.
+
+---
+
+### 2 Static Ip configuration
+I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
+
+---
+
+### 3 VM snapshots
+I learned the importance of VM snapshots which acts as a backup when performing a test or experiment in the virtual mechine.
+
+---
+
+# Tools i used during setup
+- **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
+- **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
+- **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
+
+---
+
+# AUTHOR
+```text
+Gautham Reddy
+Cybersecurity student B083
+Instructor: Waqas Karim
+cybersecurity profrssional NETWORKWALKS
+```
+
+---
+
+##  Project Information
+
+**Program Name:** Cybersecurity at Networkwalks | **Week:** 01 | **Project:** Cybersecurity & Pentesting Lab Setup | **Repository:** GitHub
+
+
+
 
 
 
